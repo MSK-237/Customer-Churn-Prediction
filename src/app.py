@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("churn_model.pkl")
-feature_columns = joblib.load("feature_columns.pkl")
+model = joblib.load("src/churn_model.pkl")
+feature_columns = joblib.load("src/feature_columns.pkl")
 
 st.title("Customer Churn Prediction")
 
